@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/output.css" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap">
+    <scripttype="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js" ></script>
+    <script src="slideIn.js" defer></script>
+    <title>My Portfolio</title>
+</head>
+
+<body class="bg-gray-300 bold-700 relative">
+ 
+    <header
+    class="w-5/6 mx-auto flex py-3 justify-between mb-20 sticky bg-gray-300 z-50"
+  >
+    <div class="w-5/6 mx-auto flex justify-between">
+     
+      <div class="w-8 h-8 relative">
+        <p class="text-4xl absolute top-0" id="logo">m</p>
+        <img src="./photo/crown.png" alt="" class="absolute -top-1 -left-4 -rotate-45 w-16">
+      </div>
+
+      <div class="lg:inline md:inline hidden sm:inline w-2/5">
+        <div
+          class="w-96 lg:flex justify-evenly text-xs sm:flex md:flex mt-3"
+        >
+        <a href="home.html" class="hover-text" id="about">Home</a>
+          <a href="aboutme.html" class="hover-text font-semibold" id="about">ABOUT</a>
+          <a href="project.html" class="hover-text">PROJECTS</a>
+          <a href="contact.html" class="hover-text">CONTACT</a>
+        </div>
+        <div class="lg:hidden md:hidden inline sm:hidden float-right">
+          <ion-icon
+            name="menu-outline"
+            class="scale-150"
+          ></ion-icon>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main 
+  class="w-5/6 h-full mx-auto flex justify-between items-center"  id="about-main"
+>
+<!-- About me -->
+<div class="w-1/4">
+    <div class="slide-in">
+        <p class="text-xl font-semibold">About Me</p>
+        <p> Passionate junior web developer with a flair for 
+            creating responsive and user-friendly websites. Eager to learn and contribute.</p>
+    </div>
+    <div class="slide-in2 mt-6">
+        <p class=" text-xl font-semibold">Education</p>
+        <p>
+            B.C.Sc from UCS(mdy)
+        </p>
+        <p>
+           Ex;braiN web development course
+        </p>
+    </div>
+
+    <div class="mt-6 slide-in3">
+      <p class=" text-xl font-semibold">Experience</p>
+      <p>
+        3 month On Job Traning Ex;braiN
+      </p>
+      <p> (2023 October - 2023 December)</p>
+  </div>
+ 
+</div>
+<!-- profile -->
+<div class="w-1/3">
+    <img src="./photo/myphoto.png" alt="" class="w-full h-full">
+</div>
+<!-- skill -->
+<div class="grid grid-cols-3 gap-10 w-1/3">
+
+  <img src="./photo/html.png" alt="html" class="w-20 logo">
+  <img src="./photo/css.png" alt="css" class="w-20 logo">
+  <img src="./photo/js.png" alt="javascript" class="w-20 log0">
+  <img src="./photo/jquery.png" alt="css" class="w-20 logo">
+  <img src="./photo/tailwind.png" alt="tailwind" class="w-20 logo">
+  <img src="./photo/git.png" alt="git" class="w-20 logo">
+  <img src="./photo/vue.png" alt="vue" class="w-20 logo">
+  <img src="./photo/laravel.png" alt="laravel" class="w-20 logo">
+  <img src="./photo/php.png" alt="php" class="w-20 logo">
+  <img src="./photo/mysql.png" alt="mysql" class="w-20 logo">
+</div>
+      
+</main>
+
+</body>
+</html>

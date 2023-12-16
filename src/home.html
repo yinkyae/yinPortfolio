@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/output.css" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap">
+    <script src="portfolio.js" defer></script>
+    <script src="download.js" defer></script>
+    <scripttype="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js" ></script>
+
+    <title>My Portfolio</title>
+</head>
+<body class="bg-gray-300 bold-700 relative">
+
+  <header
+  class="w-5/6 mx-auto flex py-3 justify-between mb-20 sticky bg-gray-300 z-50"
+>
+  <div class="w-5/6 mx-auto flex justify-between">
+   
+    <div class="w-8 h-8 relative">
+      <p class="text-4xl absolute top-0" id="logo">m</p>
+      <img src="./photo/crown.png" alt="" class="absolute -top-1 -left-4 -rotate-45 w-16">
+    </div>
+
+    <div class="lg:inline md:inline hidden sm:inline w-2/5">
+      <div
+        class="w-96 lg:flex justify-evenly text-xs sm:flex md:flex mt-3"
+      >
+      <a href="home.html" class="hover-text font-semibold" id="about">Home</a>
+        <a href="aboutme.html" class="hover-text" id="about">ABOUT</a>
+        <a href="project.html" class="hover-text">PROJECTS</a>
+        <a href="contact.html" class="hover-text">CONTACT</a>
+      </div>
+      <div class="lg:hidden md:hidden inline sm:hidden float-right">
+        <ion-icon
+          name="menu-outline"
+          class="scale-150"
+        ></ion-icon>
+      </div>
+    </div>
+  </div>
+</header>
+  <main 
+  class="w-5/6 h-full mx-auto  flex flex-col justify-center items-center"  id="main"
+>
+      <p class=" text-opacity-70 ml-2 h-6 lg:mt-0 mt-10" 
+      id="intro">  </p>
+      <p class="font-bold text-8xl mt-5 mb-10 h-20  typing-animation italic"
+      id="name"> </p>
+      <p class="text-4xl h-16 text-right mt-5 " id="position">
+       </p>
+      <a class="w-32 py-2 h-10 mx-auto mt-5" href="./mycv/yinkyaewai.pdf" download="yinkyae_portfolio">
+        <button class="glow-on-hover" id="cv-button">
+        Download CV
+    </button>
+    </div>
+</main>
+</body>
+</html>
